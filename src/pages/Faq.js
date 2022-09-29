@@ -1,6 +1,5 @@
 import React from "react";
 import "../custom.css"
-import { VscTriangleDown } from "react-icons/vsc";
 
 export default function Faq() {
   return (
