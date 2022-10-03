@@ -44,14 +44,14 @@ export default function OurClients() {
         {/* Card one modal */}
         <div
           style={OVERLAY_STYLES}
-          className="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          className="modal z-90 fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="ClientOne"
           tabindex="-1"
           aria-labelledby="ClientOneLabel"
           aria-hidden="true"
         >
           <div className="modal-dialog modal-dialog-scrollable relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding outline-none text-current">
+            <div className="modal-content z-9 border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding outline-none text-current">
               <div className="modal-header flex flex-shrink-0 gap-5 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <div className="flex flex-col">
                   <h5

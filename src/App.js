@@ -16,7 +16,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='max-w-[1400px] m-auto mt-10 container '>
+    <div className='max-w-[1400px] m-auto mt-10 container'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
