@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Form() {
+export default function ContactForm() {
   return (
         <div className="flex justify-center items-center bg-white py-20">
           <form className=" w-[70%] flex flex-col  ">

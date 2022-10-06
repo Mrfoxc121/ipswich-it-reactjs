@@ -1,10 +1,6 @@
 import React from "react";
-import {
-  MdOutlineSupportAgent,
-  MdLocalPhone,
-  MdPeople,
-} from "react-icons/md";
-import Form from "../components/Form";
+import { MdOutlineSupportAgent, MdLocalPhone, MdPeople } from "react-icons/md";
+import Form from "../components/Forms/ContactForm";
 
 export default function Contact() {
   return (
@@ -17,7 +13,7 @@ export default function Contact() {
         suspendisse.
       </p>
       <div className="grid grid-cols-2">
-        <div className="">
+        <div className="-z-10">
           <Form />
         </div>
         <div className="flex flex-col justify-center px-10">
@@ -28,10 +24,12 @@ export default function Contact() {
           </p>
           <div className="flex border-b-2 mt-5">
             <MdLocalPhone className="text-2xl mr-2 text-green-900" />
-            <p className="text-lg text-green-900 mb-5">Telephone: 0756883388499</p>
+            <p className="text-lg text-green-900 mb-5">
+              Telephone: 0756883388499
+            </p>
           </div>
           <div className="flex border-b-2 mt-5">
-            <MdOutlineSupportAgent className="text-2xl mr-2 text-green-900"  />
+            <MdOutlineSupportAgent className="text-2xl mr-2 text-green-900" />
             <p className="text-lg text-green-900 mb-5">Remote Support</p>
           </div>
           <div className="flex border-b-2 mt-5">
