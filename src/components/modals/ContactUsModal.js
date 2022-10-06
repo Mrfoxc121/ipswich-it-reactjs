@@ -21,7 +21,7 @@ export default function ContactUsModal() {
                   className="text-4xl leading-normal text-black font-bold my-2"
                   id="contactModalLabel"
                 >
-                  Contact Us
+                  Get in Touch
                 </h5>
               </div>
 
@@ -34,9 +34,7 @@ export default function ContactUsModal() {
             </div>
             <div className="modal-body relative p-4">
               <p className="text-sm text-black">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Exercitationem eligendi quis expedita vitae eveniet perferendis
-                minima! Nostrum omnis reprehenderit ab!
+              Find out how Ipswich IT can help with problems specific to your business? Lets Talk.
               </p>
               <ContactForm />
             </div>
