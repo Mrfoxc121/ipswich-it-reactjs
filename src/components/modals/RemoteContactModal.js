@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from "react-dom";
-import Form from '../Forms/ContactForm'
+import RemoteCalloutForm from '../Forms/RemoteCalloutForm';
 import { OVERLAY_STYLES } from "../Styles"; 
 
 export default function RemoteRemoteContactModal() {
@@ -21,7 +21,7 @@ export default function RemoteRemoteContactModal() {
                   className="text-4xl leading-normal text-black font-bold my-2"
                   id="RemoteContactModalLabel"
                 >
-                  Remote Contact
+                  Need remote or onsite assistance ?
                 </h5>
               </div>
 
@@ -34,11 +34,9 @@ export default function RemoteRemoteContactModal() {
             </div>
             <div className="modal-body relative p-4">
               <p className="text-sm text-black">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Exercitationem eligendi quis expedita vitae eveniet perferendis
-                minima! Nostrum omnis reprehenderit ab!
+              Simply fill out the form below and we will be in touch as soon as possible.
               </p>
-              <Form />
+              <RemoteCalloutForm />
             </div>
             <div className="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-gray-200 rounded-b-md">
               <button

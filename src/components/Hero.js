@@ -26,7 +26,7 @@ export default function Hero() {
             <div className="flex justify-center flex-wrap gap-6">
               <button
                 type="button"
-                className=" bg-green-900 border-2 border-green-900 text-white py-2 px-6 hover:bg-green-700  transition duration-150 ease-in-out rounded"
+                className=" bg-green-900 border-2 border-green-900 text-white py-2 px-6 hover:bg-white hover:text-slate-900  transition duration-150 ease-in-out rounded"
                 data-bs-toggle="modal"
                 data-bs-target="#contactModal"
               >
@@ -34,7 +34,7 @@ export default function Hero() {
               </button>
               <button
                 type="button"
-                className="py-2 px-6 border-2 border-green-900 hover:bg-green-100 hover:border-white rounded transition duration-150 ease-in-out "
+                className="py-2 px-6 border-2 border-green-900 hover:bg-green-900 hover:border-green-900 hover:text-white rounded transition duration-150 ease-in-out "
                 data-bs-toggle="modal"
                 data-bs-target="#RemoteContactModal"
               >
